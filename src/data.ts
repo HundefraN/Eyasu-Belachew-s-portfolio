@@ -168,7 +168,7 @@ export const PROJECTS: Project[] = [
     title: 'Urban Oasis Outdoor Cafe & Patio',
     category: 'Landscape',
     subCategory: 'Commercial/Landscape',
-    image: img6, // Outdoor cafe deck with central tree
+    image: img5, // Outdoor cafe deck with central tree
     description: 'A premium commercial outdoor lounge integrating structural timber decking, hanging string light accents, custom planters with lush greenery, and an artistic central feature tree.',
     details: {
       location: 'Bole Atlas, Addis Ababa',
@@ -182,7 +182,7 @@ export const PROJECTS: Project[] = [
     title: 'Vibrant Modern Restaurant & Burger House',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img4, // Burger house interior with neon sign
+    image: img1, // Burger house interior with neon sign
     description: 'A lively, high-energy dining space utilizing bold red acoustic walls, custom overhead ring lighting structures, warm timber tables, and a living green wall with integrated neon branding.',
     details: {
       location: 'Sarbet Area, Addis Ababa',
@@ -210,7 +210,7 @@ export const PROJECTS: Project[] = [
     title: 'Artisan Coffee House Interior',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img1, // Cafe interior with people sitting down
+    image: img4, // Cafe interior with people sitting down
     description: 'A warm, atmospheric community hub highlighting custom open shelving for potted flora, delicate wireframe pendant globes, and a beautifully framed architectural viewing arch.',
     details: {
       location: 'Kazanchis, Addis Ababa',
