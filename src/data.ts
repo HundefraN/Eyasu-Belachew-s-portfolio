@@ -81,13 +81,13 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'G+4 Commercial & Residential Complex',
+    title: 'G+4 commercial ceneter design',
     category: 'Architecture',
     subCategory: 'Commercial',
     image: img10, // Courtyard building layout with bronze vehicle
     description: 'A striking modern mixed-use development featuring twin mid-rise wings, structural exterior louvers for optimized solar control, and an open brick courtyard layout.',
     details: {
-      location: 'Bole District, Addis Ababa',
+      location: 'Bishoftu, Oromia, Ethiopia',
       year: '2025',
       area: '1,850 sqm',
       scope: 'Full Architectural & Structural Design, BOQ'
@@ -95,13 +95,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    title: 'Modern G+2 Contemporary Villa',
+    title: 'G+2 with terrace design',
     category: 'Architecture',
     subCategory: 'Residential',
     image: img9, // Multi-story modern villa with white facade frame
     description: 'An ultra-modern residential design blending exposed stone cladding textures, crisp white cantilevered frames, expansive glazing, and integrated ground-level parking.',
     details: {
-      location: 'CMC Regency, Addis Ababa',
+      location: 'Bishoftu, Oromia, Ethiopia',
       year: '2024',
       area: '420 sqm',
       scope: 'Architectural, Interior & Landscape Design'
@@ -109,13 +109,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: 'Modern Assembly Church Design',
+    title: 'G + mezzanine floor Church design',
     category: 'Architecture',
     subCategory: 'Public/Cultural',
     image: img3, // Megapharistos Church render
     description: 'A structural assembly sanctuary showcasing a clean monolithic light stone facade, a prominent architectural cross, an energetic red roof profile, and expansive entry stairs.',
     details: {
-      location: 'Hawassa, Ethiopia',
+      location: 'Shakiso, Oromia, Ethiopia',
       year: '2025',
       area: '1,200 sqm',
       scope: 'Architectural Design & Acoustic Detailing'
@@ -123,13 +123,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: 'Executive Office Interior Design',
+    title: 'Office interior design',
     category: 'Interior',
     subCategory: 'Interior',
     image: img8, // Office workspace with iMac and custom wooden shelving
     description: 'A high-end corporate workspace maximizing productivity with a custom marble-finished executive desk, ambient concealed lighting, and built-in premium timber bookshelves.',
     details: {
-      location: 'Megenagna Corporate Hub',
+      location: 'Megenagna, Addis Ababa, Ethiopia',
       year: '2024',
       area: '310 sqm',
       scope: 'Bespoke Interior Planning, Lighting & Supervision'
@@ -137,13 +137,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 5,
-    title: 'Premium Living & Kitchen Interior',
+    title: 'Living, dining and kitchen interior design',
     category: 'Interior',
     subCategory: 'Interior',
     image: img6, // Luxury living room layout
     description: 'An open-concept residential suite featuring a custom wood-slatted media backdrop, elegant cream lounge furniture, premium lighting layout, and an integrated kitchen space.',
     details: {
-      location: 'Lebu Estates, Addis Ababa',
+      location: 'Addis Ababa, Ethiopia',
       year: '2025',
       area: '180 sqm',
       scope: 'Bespoke Furniture, Lighting & Mechanical Integration'
@@ -151,13 +151,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 6,
-    title: 'Bespoke Children\'s Bedroom & Study',
+    title: 'Child Bed room interior design',
     category: 'Interior',
     subCategory: 'Interior',
     image: img11, // Pink bedroom with bunk bed and study nook
     description: 'A space-optimized bedroom painted in a soft pastel pink palette, showcasing a custom integrated timber bunk bed system, high-gloss marble floors, and a functional study desk.',
     details: {
-      location: 'CMC Regency, Addis Ababa',
+      location: 'Addis Ababa, Ethiopia',
       year: '2024',
       area: '32 sqm',
       scope: 'Space-optimizing Interior Design, Custom Joinery'
@@ -165,13 +165,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 7,
-    title: 'Urban Oasis Outdoor Cafe & Patio',
+    title: 'Outdoor cafe design',
     category: 'Landscape',
     subCategory: 'Commercial/Landscape',
-    image: img5, // Outdoor cafe deck with central tree
+    image: img5,
     description: 'A premium commercial outdoor lounge integrating structural timber decking, hanging string light accents, custom planters with lush greenery, and an artistic central feature tree.',
     details: {
-      location: 'Bole Atlas, Addis Ababa',
+      location: 'Bishoftu, Oromia, Ethiopia',
       year: '2025',
       area: '240 sqm',
       scope: 'Landscape Layout, Exterior Canopy Design'
@@ -179,13 +179,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 8,
-    title: 'Vibrant Modern Restaurant & Burger House',
+    title: 'Cafe design',
     category: 'Interior',
     subCategory: 'Interior',
     image: img1, // Burger house interior with neon sign
     description: 'A lively, high-energy dining space utilizing bold red acoustic walls, custom overhead ring lighting structures, warm timber tables, and a living green wall with integrated neon branding.',
     details: {
-      location: 'Sarbet Area, Addis Ababa',
+      location: 'Bole Mikael, Addis Ababa, Ethiopia',
       year: '2024',
       area: '95 sqm',
       scope: 'Full Interior Layout, Branding Integration'
@@ -193,13 +193,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 9,
-    title: 'Parametric Wall & Feature Lobby Design',
+    title: 'Parametric wall design',
     category: 'Specialized',
     subCategory: 'Specialized',
     image: img7,
     description: 'Advanced interior feature walls incorporating computational geometric paneling to create fluid, organic movement within upscale commercial lobbies.',
     details: {
-      location: 'HQ Conference Suite',
+      location: 'Addis Ababa, Ethiopia',
       year: '2024',
       area: '45 sqm wall surface',
       scope: 'Algorithmic 3D Modeling, CNC Fabrication Specs'
@@ -207,13 +207,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 10,
-    title: 'Artisan Coffee House Interior',
+    title: 'Coffee house interior design',
     category: 'Interior',
     subCategory: 'Interior',
     image: img4, // Cafe interior with people sitting down
     description: 'A warm, atmospheric community hub highlighting custom open shelving for potted flora, delicate wireframe pendant globes, and a beautifully framed architectural viewing arch.',
     details: {
-      location: 'Kazanchis, Addis Ababa',
+      location: 'Samit 72, Addis Ababa, Ethiopia',
       year: '2023',
       area: '110 sqm',
       scope: 'Concept Design, Materials Curation'
@@ -221,13 +221,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 11,
-    title: 'Taza Real Estate Corporate Reception',
+    title: 'Taza real Estate reception design',
     category: 'Interior',
     subCategory: 'Interior',
     image: img2, // Taza real estate reception lobby
     description: 'A minimalist, high-end corporate entrance lobby showcasing a monolithic front desk with clean wood accents, modern linear ceiling slots, and custom backlit branding.',
     details: {
-      location: 'Taza Real Estate Headquarters',
+      location: 'Addis Ababa, Ethiopia',
       year: '2025',
       area: '75 sqm',
       scope: 'Corporate Lobby Design & Custom Reception Millwork'
