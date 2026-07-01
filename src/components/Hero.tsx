@@ -47,9 +47,8 @@ export default function Hero() {
           <div className="lg:col-span-8 space-y-8 text-left">
             {/* Social Proof Badge */}
             <div
-              className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm transition-all duration-1000 transform ${
-                loaded ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
-              }`}
+              className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm transition-all duration-1000 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+                }`}
               id="hero-badge"
             >
               <Award className="w-4 h-4 text-amber-gold" />
@@ -61,22 +60,20 @@ export default function Hero() {
             {/* Main Headline */}
             <div className="space-y-4">
               <h1
-                className={`font-display text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-none transition-all duration-1000 delay-200 transform ${
-                  loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-                }`}
+                className={`font-display text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-none transition-all duration-1000 delay-200 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+                  }`}
                 id="hero-title"
               >
                 <span className="block text-gray-400 text-lg sm:text-2xl font-mono tracking-widest uppercase mb-3">
                   {CLIENT_INFO.title}
                 </span>
-                EYASU SAMI
+                IYASU BELCHEW
               </h1>
 
               {/* Tagline */}
               <p
-                className={`font-sans text-lg sm:text-xl text-gray-300 font-light max-w-2xl leading-relaxed transition-all duration-1000 delay-400 transform ${
-                  loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-                }`}
+                className={`font-sans text-lg sm:text-xl text-gray-300 font-light max-w-2xl leading-relaxed transition-all duration-1000 delay-400 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+                  }`}
                 id="hero-tagline"
               >
                 {CLIENT_INFO.tagline}
@@ -85,9 +82,8 @@ export default function Hero() {
 
             {/* Quick Details List */}
             <div
-              className={`grid grid-cols-2 sm:grid-cols-3 gap-6 pt-4 border-t border-white/10 max-w-xl transition-all duration-1000 delay-600 transform ${
-                loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-              }`}
+              className={`grid grid-cols-2 sm:grid-cols-3 gap-6 pt-4 border-t border-white/10 max-w-xl transition-all duration-1000 delay-600 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+                }`}
               id="hero-stats"
             >
               <div>
@@ -118,9 +114,8 @@ export default function Hero() {
 
             {/* Actions */}
             <div
-              className={`flex flex-col sm:flex-row gap-4 pt-4 transition-all duration-1000 delay-800 transform ${
-                loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-              }`}
+              className={`flex flex-col sm:flex-row gap-4 pt-4 transition-all duration-1000 delay-800 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+                }`}
               id="hero-actions"
             >
               <button
@@ -144,9 +139,8 @@ export default function Hero() {
 
           {/* Right Floating Architectural wireframe block */}
           <div
-            className={`hidden lg:block lg:col-span-4 relative transition-all duration-1000 delay-500 transform ${
-              loaded ? 'translate-x-0 opacity-100' : 'translate-x-12 opacity-0'
-            }`}
+            className={`hidden lg:block lg:col-span-4 relative transition-all duration-1000 delay-500 transform ${loaded ? 'translate-x-0 opacity-100' : 'translate-x-12 opacity-0'
+              }`}
             id="hero-right-visual"
           >
             <div className="relative w-full aspect-square max-w-[340px] mx-auto animate-float">

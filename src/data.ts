@@ -14,7 +14,7 @@ import img2 from './assets/images/images/image2.jpg';
 import img1 from './assets/images/images/image1.jpg';
 
 export const CLIENT_INFO = {
-  name: 'Eyasu Sami',
+  name: 'Iyasu Belachew',
   title: 'Architect & Multidisciplinary Designer',
   phone: '0934544825',
   email: 'Gudoarchitectsandengineersplc@gmail.com',
