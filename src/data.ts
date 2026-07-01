@@ -23,8 +23,8 @@ export const CLIENT_INFO = {
   experienceYears: '5+',
   location: 'Addis Ababa, Ethiopia',
   tagline: 'Designing structured landmarks & high-end bespoke interior spaces where form meets ultimate function.',
-  bio: 'Architect and founder of Gudo Architects and Engineers Consultant Work PLC successfully delivers tailored, end-to-end consulting solutions to a diverse clientele. Blending structural engineering precision with creative vision, this professional oversees every phase of development—from initial concept to advanced technical documentation. Leveraging a powerful workstation equipped with industry-leading design and rendering software, they translate complex ideas into immersive, high-end realities. Known for a seamless integration of aesthetics, functionality, and rigorous technical analysis, this modern design consultant provides a comprehensive, stress-free approach to transforming architectural visions into functional, beautifully executed physical spaces.',
-  avatar: ppImage
+  bio: 'Architect and founder of Gudo Architects and Engineers Consultant Work PLC successfully delivers tailored, end-to-end consulting solutions to a diverse clientele. Blending structural engineering precision with creative vision, this professional oversees every phase of development—from initial concept to advanced technical documentation. Leveraging a powerful workstation equipped with industry-leading design and rendering software, they translate complex ideas into immersive, high-end realities. Known for a seamless integration of aesthetics, functionality, and rigorous technical analysis, this modern design consultant provides a comprehensive, stress-free approach to transforming architectural visions into functional, beautifully executed physical spaces',
+  avatar: '/src/assets/images/pp.png'
 };
 
 export const SERVICES: Service[] = [
@@ -81,11 +81,11 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'G+4 Commercial & Residential Complex',
+    title: 'G+4 Commercial Center Design',
     category: 'Architecture',
     subCategory: 'Commercial',
-    image: img2, // Courtyard building layout with bronze vehicle
-    description: 'A striking modern mixed-use development featuring twin mid-rise wings, structural exterior louvers for optimized solar control, and an open brick courtyard layout.',
+    image: 'src/assets/images/images/image11.jpg',
+    description: 'A striking modern retail and office hub designed with high glass-to-concrete ratio, maximizing natural workspace illumination and structural elegance.',
     details: {
       location: 'Bole District, Addis Ababa',
       year: '2025',
@@ -95,11 +95,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    title: 'Modern G+2 Contemporary Villa',
+    title: 'G+2 with Terrace Design',
     category: 'Architecture',
     subCategory: 'Residential',
-    image: img10, // Multi-story modern villa with white facade frame
-    description: 'An ultra-modern residential design blending exposed stone cladding textures, crisp white cantilevered frames, expansive glazing, and integrated ground-level parking.',
+    image: 'src/assets/images/images/image10.jpg',
+    description: 'A luxurious contemporary villa focusing on expansive private outdoor terraces, floating overhangs, and elegant wood-clad columns.',
     details: {
       location: 'CMC Regency, Addis Ababa',
       year: '2024',
@@ -109,11 +109,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: 'Modern Assembly Church Design',
+    title: 'G + Mezzanine Floor Church Design',
     category: 'Architecture',
     subCategory: 'Public/Cultural',
-    image: img1, // Megapharistos Church render
-    description: 'A structural assembly sanctuary showcasing a clean monolithic light stone facade, a prominent architectural cross, an energetic red roof profile, and expansive entry stairs.',
+    image: 'src/assets/images/images/image4.jpg',
+    description: 'A highly spiritual, minimalist assembly hall merging dramatic natural light shafts with pristine modern lines, elevated with a majestic mezzanine.',
     details: {
       location: 'Hawassa, Ethiopia',
       year: '2025',
@@ -123,11 +123,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: 'Executive Office Interior Design',
+    title: 'Office Interior Design',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img3, // Office workspace with iMac and custom wooden shelving
-    description: 'A high-end corporate workspace maximizing productivity with a custom marble-finished executive desk, ambient concealed lighting, and built-in premium timber bookshelves.',
+    image: 'src/assets/images/images/image9.jpg',
+    description: 'A tech-forward, open-plan workspace integrating wooden floor acoustics, hidden cabling, smart zoning, and collaborative breakout zones.',
     details: {
       location: 'Megenagna Corporate Hub',
       year: '2024',
@@ -137,11 +137,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 5,
-    title: 'Premium Living & Kitchen Interior',
+    title: 'Living, Dining, and Kitchen Interior',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img7, // Luxury living room layout
-    description: 'An open-concept residential suite featuring a custom wood-slatted media backdrop, elegant cream lounge furniture, premium lighting layout, and an integrated kitchen space.',
+    image: 'src/assets/images/images/image7.jpg',
+    description: 'An open-concept residential suite featuring state-of-the-art marble kitchen counters, recess lighting, and custom linear fireplace accents.',
     details: {
       location: 'Lebu Estates, Addis Ababa',
       year: '2025',
@@ -151,11 +151,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 6,
-    title: 'Bespoke Children\'s Bedroom & Study',
+    title: 'Child Bedroom Interior Design',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img9, // Pink bedroom with bunk bed and study nook
-    description: 'A space-optimized bedroom painted in a soft pastel pink palette, showcasing a custom integrated timber bunk bed system, high-gloss marble floors, and a functional study desk.',
+    image: 'src/assets/images/images/image1.jpg',
+    description: 'A playful yet clean and sophisticated bedroom design maximizing space with premium modular shelving and custom hidden study desks.',
     details: {
       location: 'CMC Regency, Addis Ababa',
       year: '2024',
@@ -165,11 +165,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 7,
-    title: 'Urban Oasis Outdoor Cafe & Patio',
+    title: 'Outdoor Cafe Design',
     category: 'Landscape',
     subCategory: 'Commercial/Landscape',
-    image: img6, // Outdoor cafe deck with central tree
-    description: 'A premium commercial outdoor lounge integrating structural timber decking, hanging string light accents, custom planters with lush greenery, and an artistic central feature tree.',
+    image: 'src/assets/images/images/image6.jpg',
+    description: 'An oasis in the city center integrating steel canopy frames, lush climbing vegetation, bespoke wooden seating grids, and elegant pathway lighting.',
     details: {
       location: 'Bole Atlas, Addis Ababa',
       year: '2025',
@@ -179,11 +179,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 8,
-    title: 'Vibrant Modern Restaurant & Burger House',
+    title: 'Cafe Design',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img4, // Burger house interior with neon sign
-    description: 'A lively, high-energy dining space utilizing bold red acoustic walls, custom overhead ring lighting structures, warm timber tables, and a living green wall with integrated neon branding.',
+    image: 'src/assets/images/images/image2.jpg',
+    description: 'Industrial-chic espresso cafe utilizing raw concrete wall finishes, copper pipe details, and comfortable warm-toned leather banquette seating.',
     details: {
       location: 'Sarbet Area, Addis Ababa',
       year: '2024',
@@ -193,11 +193,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 9,
-    title: 'Parametric Wall & Feature Lobby Design',
+    title: 'Parametric Wall Design',
     category: 'Specialized',
     subCategory: 'Specialized',
-    image: img11,
-    description: 'Advanced interior feature walls incorporating computational geometric paneling to create fluid, organic movement within upscale commercial lobbies.',
+    image: 'src/assets/images/images/image8.jpg',
+    description: 'An advanced parametric wall paneling sculpture crafted with computational algorithms, transforming an executive boardroom into an organic masterpiece.',
     details: {
       location: 'HQ Conference Suite',
       year: '2024',
@@ -207,11 +207,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 10,
-    title: 'Artisan Coffee House Interior',
+    title: 'Coffee House Interior Design',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img8, // Cafe interior with people sitting down
-    description: 'A warm, atmospheric community hub highlighting custom open shelving for potted flora, delicate wireframe pendant globes, and a beautifully framed architectural viewing arch.',
+    image: 'src/assets/images/images/image5.jpg',
+    description: 'A cozy sanctuary focusing on local organic materials, dark stained woods, warm clay textures, and focused spot-lighting for a relaxing mood.',
     details: {
       location: 'Kazanchis, Addis Ababa',
       year: '2023',
@@ -221,11 +221,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 11,
-    title: 'Taza Real Estate Corporate Reception',
+    title: 'Taza Real Estate Reception Design',
     category: 'Interior',
     subCategory: 'Interior',
-    image: img5, // Taza real estate reception lobby
-    description: 'A minimalist, high-end corporate entrance lobby showcasing a monolithic front desk with clean wood accents, modern linear ceiling slots, and custom backlit branding.',
+    image: 'src/assets/images/images/image3.jpg',
+    description: 'A high-prestige reception area featuring a monolithic stone front desk, brass metallic accents, and a dynamic illuminated digital brand backing.',
     details: {
       location: 'Taza Real Estate Headquarters',
       year: '2025',
