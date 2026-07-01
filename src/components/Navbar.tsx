@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Compass } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { CLIENT_INFO } from '../data';
 
 export default function Navbar() {
@@ -55,22 +55,18 @@ export default function Navbar() {
   return (
     <nav
       id="main-navbar"
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        isScrolled
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled
           ? 'bg-brand-dark/90 backdrop-blur-md border-b border-white/5 py-4 shadow-lg'
           : 'bg-transparent py-6'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* Logo */}
         <button
           onClick={() => handleScrollTo('home')}
-          className="flex items-center gap-3 group text-left cursor-pointer"
+          className="flex items-center group text-left cursor-pointer"
           id="nav-logo-btn"
         >
-          <div className="w-10 h-10 rounded-lg bg-amber-gold flex items-center justify-center text-brand-dark font-bold relative overflow-hidden transition-transform duration-300 group-hover:rotate-12">
-            <Compass className="w-5 h-5" />
-          </div>
           <div>
             <span className="block font-display text-lg font-bold tracking-widest text-white uppercase group-hover:text-amber-gold transition-colors duration-300">
               {CLIENT_INFO.name}
@@ -87,11 +83,10 @@ export default function Navbar() {
             <button
               key={link.id}
               onClick={() => handleScrollTo(link.id)}
-              className={`font-sans text-sm tracking-wider uppercase font-medium transition-all duration-300 relative py-2 cursor-pointer ${
-                activeSection === link.id
+              className={`font-sans text-sm tracking-wider uppercase font-medium transition-all duration-300 relative py-2 cursor-pointer ${activeSection === link.id
                   ? 'text-amber-gold font-semibold'
                   : 'text-gray-300 hover:text-white'
-              }`}
+                }`}
               id={`nav-link-${link.id}`}
             >
               {link.label}
@@ -122,9 +117,8 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed inset-y-0 right-0 w-full max-w-sm bg-brand-dark/95 backdrop-blur-lg border-l border-white/5 z-40 transform transition-transform duration-500 ease-out p-8 md:hidden flex flex-col justify-between ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        className={`fixed inset-y-0 right-0 w-full max-w-sm bg-brand-dark/95 backdrop-blur-lg border-l border-white/5 z-40 transform transition-transform duration-500 ease-out p-8 md:hidden flex flex-col justify-between ${isOpen ? 'translate-x-0' : 'translate-x-full'
+          }`}
         id="mobile-nav-drawer"
       >
         <div className="flex flex-col gap-8 mt-16">
@@ -142,11 +136,10 @@ export default function Navbar() {
               <button
                 key={link.id}
                 onClick={() => handleScrollTo(link.id)}
-                className={`text-left font-display text-xl tracking-wide uppercase font-medium py-1 transition-all ${
-                  activeSection === link.id
+                className={`text-left font-display text-xl tracking-wide uppercase font-medium py-1 transition-all ${activeSection === link.id
                     ? 'text-amber-gold pl-3 border-l-2 border-amber-gold'
                     : 'text-gray-300 hover:text-white'
-                }`}
+                  }`}
                 id={`mobile-nav-link-${link.id}`}
               >
                 {link.label}

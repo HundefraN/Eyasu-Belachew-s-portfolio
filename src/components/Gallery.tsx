@@ -146,22 +146,23 @@ export default function Gallery() {
       {/* Lightbox Modal / Project Details */}
       {selectedProject && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-brand-dark/95 backdrop-blur-md overflow-y-auto animate-fade-in"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-brand-dark/95 backdrop-blur-md animate-fade-in"
           id="project-lightbox"
         >
-          {/* Main Container */}
-          <div className="bg-brand-card border border-white/10 max-w-5xl w-full rounded-2xl overflow-hidden shadow-2xl relative my-8">
+          {/* Main Container: Added max-h-[95vh] and overflow-y-auto to fix overflow */}
+          <div className="bg-brand-card border border-white/10 max-w-5xl w-full max-h-[95vh] overflow-y-auto rounded-2xl shadow-2xl relative">
+
             {/* Sticky/Fixed close button inside container */}
             <button
               onClick={() => setSelectedProject(null)}
-              className="absolute top-4 right-4 z-10 w-10 h-10 bg-brand-dark/80 backdrop-blur-md hover:bg-amber-gold hover:text-brand-dark text-white rounded-full flex items-center justify-center border border-white/10 transition-colors cursor-pointer"
+              className="absolute top-4 right-4 z-20 w-10 h-10 bg-brand-dark/80 backdrop-blur-md hover:bg-amber-gold hover:text-brand-dark text-white rounded-full flex items-center justify-center border border-white/10 transition-colors cursor-pointer"
               aria-label="Close Lightbox"
               id="lightbox-close-btn"
             >
               <X className="w-5 h-5" />
             </button>
 
-            <div className="grid grid-cols-1 lg:grid-cols-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12 h-full">
               {/* Media Column */}
               <div className="lg:col-span-7 aspect-[4/3] lg:aspect-auto relative overflow-hidden bg-black/50 min-h-[300px]">
                 <img
@@ -227,9 +228,9 @@ export default function Gallery() {
                   <a
                     href="#contact"
                     onClick={() => setSelectedProject(null)}
-                    className="px-6 py-3 bg-amber-gold hover:bg-amber-gold/95 text-brand-dark rounded text-xs uppercase tracking-widest font-bold font-display shadow-md shadow-amber-gold/10 transition-colors"
+                    className="px-6 py-3 bg-amber-gold hover:bg-amber-gold/95 text-brand-dark rounded text-xs uppercase tracking-widest font-bold font-display shadow-md shadow-amber-gold/10 transition-colors text-center"
                   >
-                    Inquire About This Space
+                    Inquire Space
                   </a>
                 </div>
               </div>
